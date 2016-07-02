@@ -1,19 +1,79 @@
 #main{
-	background-color: white; 
+	background-color:white; 
 	padding: 2px 10px;
 	margin: auto;
 }
 body{
 	text-align: center; 
-
+	background-color: white;
 }
 .title{
-	background-color: #BAFDFF; 
-	padding: 40px; 
-	font-family: "Helvetica";
-	color: #000;
-	height: 20px;
-	font-size: 30px;
+	background-color:#BAFDFF;
+	padding: 20px; 
+	font-family: "Gabriola";
+	color: black;
+	height:77.3px;
+	font-size: 50px;
 	text-align: center;
-
+	border-style: double; 
+	border-color: #ECCBD9;
+	border-spacing: 20px;
 }
+
+.button:hover {background-color:#21A09E}
+
+
+.button {
+  background-color: #235FA0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border-radius: 15px;
+ font-family: "Gabriola";
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  padding: 10px 25px;
+	position:relative;
+    transition: .5s ease;
+    top: 300px;
+    left:-300px;
+    right:300px;
+    bottom: -250px;;
+} 
+.button2:hover {background-color:#21A09E}
+
+.button2 {
+  background-color: #235FA0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border-radius: 15px;
+ font-family: "Gabriola";
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  padding: 10px 25px;
+	position:relative;
+    transition: .5s ease;
+    top: 300px;
+    left:350px;
+    right:-300px;
+    bottom: -250px;;
+ }
+.button3:hover {background-color:#21A09E}
+
+.button3 {
+  background-color: #235FA0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border-radius: 15px;
+ font-family: "Gabriola";
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  padding: 10px 25px;
+	position:relative;
+    transition: .5s ease;
+    top:300px;
+    left:-200px;
+    right:400px;
+    bottom:-250px;;
